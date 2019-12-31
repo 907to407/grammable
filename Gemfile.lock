@@ -248,7 +248,10 @@ DEPENDENCIES
   chromedriver-helper
   coffee-rails (~> 4.2)
   devise
+<<<<<<< HEAD
   factory_bot_rails
+=======
+>>>>>>> fdf9aaca3111ae522026b197cf4f414cf012c658
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
