@@ -24,6 +24,7 @@ class GramsController < ApplicationController
 
   def new
     @gram = Gram.new
+    u.picture = params[:file]
   end
 
   def index
