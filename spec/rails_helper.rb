@@ -34,6 +34,7 @@ rescue ActiveRecord::PendingMigrationError => e
 end
 RSpec.configure do |config|
   config.include Devise::Test::ControllerHelpers, type: :controller
+  include ActionDispatch::TestProcess
   config.include Devise::Test::ControllerHelpers, type: :view
   config.fixture_path = "#{::Rails.root}/spec/fixtures"
 
